@@ -1,10 +1,4 @@
-/*
 
-Softy Pinko
-
-https://templatemo.com/tm-535-softy-pinko
-
-*/
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -112,14 +106,18 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-::selection {
-  background: #ff589e;
-  color: #fff;
+::-webkit-scrollbar {
+  width: 12px;
 }
 
-::-moz-selection {
-  background: #ff589e;
-  color: #fff;
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
 .section {
